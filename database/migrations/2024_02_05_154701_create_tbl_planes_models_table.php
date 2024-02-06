@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // COMENTARIO DE PRUEBA
         Schema::create('tbl_planes', function (Blueprint $table) {
             $table->id();
             $table->integer('ayear');
